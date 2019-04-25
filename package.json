@@ -1,0 +1,30 @@
+{
+  "name": "exp1",
+  "version": "1.0.0",
+  "description": "Max/MSP Node Demo",
+  "main": "game.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint ./ ",
+    "lint-fix": "eslint ./ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cycling74/n4m-examples.git"
+  },
+  "keywords": [
+    "max",
+    "node",
+    "n4m",
+    "max8"
+  ],
+  "author": {
+    "name": "Cycling '74",
+    "url": "https://cycling74.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-c74": "^1.0.0"
+  }
+}
